@@ -1,0 +1,41 @@
+{
+  "seed": 42,
+  "target_size": [
+    224,
+    224
+  ],
+  "val_size": 0.15,
+  "classes": [
+    "bali",
+    "jawa",
+    "jawi",
+    "lampung",
+    "lontara",
+    "pegon",
+    "sunda"
+  ],
+  "label_to_idx": {
+    "bali": 0,
+    "jawa": 1,
+    "jawi": 2,
+    "lampung": 3,
+    "lontara": 4,
+    "pegon": 5,
+    "sunda": 6
+  },
+  "minority_classes": [
+    "pegon",
+    "bali",
+    "lontara"
+  ],
+  "class_weights": {
+    "bali": 1.359,
+    "jawa": 0.767,
+    "jawi": 0.69,
+    "lampung": 1.067,
+    "lontara": 1.335,
+    "pegon": 1.741,
+    "sunda": 0.8
+  },
+  "corrupt_files_dropped": []
+}
